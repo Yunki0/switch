@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSIS | Club</title>
+    
+    <!-- Script CSS -->
+
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/spin.css">
+    <link rel="icon" href="img/nsis-logo.png">
+
+</head>
+<body>
+    <header class="main-header">
+        <div class="loader-overlay" id="loader">
+            <div class="together">
+                <div id="shadow"></div>
+                <div id="box"></div>
+            </div>
+        </div>
+        <div class="main-header-shadow"></div>
+        <!-- Barre de Navigation Fixe -->
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="index.html"><img src="/img/NSISsf.4845b29a05c3d5180ae9.png" class="w-16 logo"></a></li>
+                <li><a href="#welcome" class="active text-orange-500">Accueil</a></li>
+                <li><a href="#présentation">About Us</a></li>
+                <li><a href="#activités">Activités</a></li>
+                <li><a href="#événements">Événements</a></li>
+                <li><a href="#formations">Formations</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Section de bienvenue -->
+        <section class="welcome" id="welcome">
+            <h2 class="text-5xl font-semibold text-white z-0">
+                BIENVENUE À <span class="text-orange-500">NSIS</span>
+            </h2>
+            <h3 class="text-3xl text-white font-medium max-w-4xl z-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veniam, perferendis sit aspernatur est debitis quas, 
+                unde voluptate rerum labore facilis quidem maiores repellendus, quisquam deserunt ex iusto necessitatibus sapiente.
+            </h3>
+            <a href="#" class="btn-join bg-orange-500 text-white font-medium p-4 rounded-md cursor-pointer hover:bg-orange-600 active:bg-orange-700 focus:outline-none focus:ring focus:ring-orange-300 z-0">
+                Rejoins-Nous
+            </a>
+        </section>
+    </header>
+    
+    <main>
+
+    <!-- Section pour la présentation de NSIS -->
+
+        <section class="main" id="présentation">
+            <aside class="content">
+                <h2 class="text-3xl font-medium">
+                    Nous sommes <span class="text-orange-500 font-semibold">NSIS - N</span>etwork and 
+                    <span class="text-orange-500 font-semibold">S</span>ystems <span class="text-orange-500 font-semibold">I</span>nformations 
+                    <span class="text-orange-500 font-semibold">S</span>ecurity
+                </h2>
+                <br>
+                <br>
+                <p class="text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, eum minus tempora vitae dolore veniam et. 
+                    Deleniti ad obcaecati deserunt molestiae reprehenderit asperiores id quam delectus, reiciendis at vel incidunt!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam saepe, accusantium eos laboriosam nemo voluptate, molestiae porro in eaque vel omnis aspernatur rerum natus, 
+                    id distinctio magnif obcaecati itaque tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, deserunt natus numquam ab quis necessitatibus ex reprehenderit magnam dolor 
+                    quam, saepe iusto vitae repellat mollitia repellendus. Porro ut facere nesciunt.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit enim veniam aperiam saepe provident dignissimos adipisci ipsum iste ducimus, 
+                    ea placeat ad officia sunt facilis autem fuga dolorem laudantium nihil.
+                </p>
+                <div class="btn-center"><a href="#" class="btn">En Savoir +</a></div>
+            </aside>
+            <aside class="content">
+                <img src="img/medium-shot-bored-people-working.jpg" class="logo" alt="medium shot">
+            </aside>
+        </section>
+
+        <!-- Section pour la présentation de nos activités -->
+
+        <section class="activity" id="activités">
+
+            <aside class="containers">
+                <h2 class="text-orange-500 text-3xl font-bold">Nos Activités</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi molestiae eius blanditiis facere </p>
+                <div class="btn-center"><a href="#" class="btn">En Savoir +</a></div>
+            </aside>
+
+            <aside class="container shadow-md " data-url="">
+                <section class="upbox">
+                    <img src="img/abstract-cybersecurity-concept-design.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tempore animi eum beatae quis assumenda velit! Sequi commodi iusto ipsum nihil, molestias modi eligendi doloribus quis suscipit repellat id ex.</p>
+                </section>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/7090529.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, possimus officiis nulla dolorum exercitationem reprehenderit labore blanditiis ad saepe adipisci sequi voluptatibus ab officia ipsam quibusdam eos nihil esse deserunt?</p>
+                </section>
+            </aside>
+
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/37656.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptatum esse, inventore quod temporibus illo iusto ab vitae dolorem exercitationem consectetur, sunt deserunt quasi vel sed et quibusdam natus a?
+                </section>
+            </aside>
+
+            <aside class="container shadow-lg">
+                <section class="upbox">
+                    <img src="img/3238.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam praesentium doloribus accusantium in soluta non dolorum. In repellendus, ab laboriosam iusto obcaecati dicta cupiditate dolorum sunt consequatur. Sit, rem?</p>
+                </section>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/computer-program-coding-screen.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, veniam ea autem odit nihil impedit necessitatibus velit iste. Ipsa error recusandae ea laudantium nisi, rerum labore cumque. Aut, incidunt pariatur?</p>
+                </section>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/website-hosting-concept-with-cloud.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut perferendis distinctio sequi a odit. Mollitia sapiente velit quibusdam eius cupiditate ea perspiciatis doloremque temporibus, tempore delectus facilis enim facere?</p>
+                </section>
+            </aside>
+        </section>
+
+        <footer class="h-7 bg-orange-500"></footer>
+
+        <!-- Section pour la présentation de nos événements -->
+
+        <section class="activity" id="événements">
+
+            <aside class="containers">
+                <h2 class="text-orange-500 text-3xl font-bold">Nos Événements</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi molestiae eius blanditiis facere</p>
+                <div class="btn-center"><a href="#" class="btn">En Savoir +</a></div>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/abstract-cybersecurity-concept-design.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, labore dolor? Repellat qui voluptatibus dicta deleniti? Dolorem quaerat doloremque aspernatur totam non quae hic quia reiciendis ex! Autem, sunt illo?</p>
+                </section>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/7090529.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, possimus officiis nulla dolorum exercitationem reprehenderit labore blanditiis ad saepe adipisci sequi voluptatibus ab officia ipsam quibusdam eos nihil esse deserunt?</p>
+                </section>
+            </aside>
+        
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/37656.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptatum esse, inventore quod temporibus illo iusto ab vitae dolorem exercitationem consectetur, sunt deserunt quasi vel sed et quibusdam natus a?
+                </section>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/3238.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam praesentium doloribus accusantium in soluta non dolorum. In repellendus, ab laboriosam iusto obcaecati dicta cupiditate dolorum sunt consequatur. Sit, rem?</p>
+                </section>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/computer-program-coding-screen.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, veniam ea autem odit nihil impedit necessitatibus velit iste. Ipsa error recusandae ea laudantium nisi, rerum labore cumque. Aut, incidunt pariatur?</p>
+                </section>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/website-hosting-concept-with-cloud.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut perferendis distinctio sequi a odit. Mollitia sapiente velit quibusdam eius cupiditate ea perspiciatis doloremque temporibus, tempore delectus facilis enim facere?</p>
+                </section>
+            </aside>
+
+        </section>
+
+        <footer class="h-7 bg-orange-500"></footer>
+
+        <!-- Section pour la présentation de nos Formations -->
+
+        <section class="activity" id="formations">
+
+            <aside class="containers ">
+                <h2 class="text-orange-500 text-3xl font-bold">Nos Formations</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi molestiae eius blanditiis facere</p>
+                <div class="btn-center"><a href="#" class="btn">En Savoir +</a></div>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/abstract-cybersecurity-concept-design.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt delectus ea iusto itaque enim autem aspernatur eveniet aut doloremque reprehenderit! Eum voluptatum hic ipsam ea dicta rerum! Modi, dolore perferendis?</p>
+                </section>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/7090529.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, possimus officiis nulla dolorum exercitationem reprehenderit labore blanditiis ad saepe adipisci sequi voluptatibus ab officia ipsam quibusdam eos nihil esse deserunt?</p>
+                </section>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/37656.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptatum esse, inventore quod temporibus illo iusto ab vitae dolorem exercitationem consectetur, sunt deserunt quasi vel sed et quibusdam natus a?
+                </section>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/3238.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam praesentium doloribus accusantium in soluta non dolorum. In repellendus, ab laboriosam iusto obcaecati dicta cupiditate dolorum sunt consequatur. Sit, rem?</p>
+                </section>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/computer-program-coding-screen.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, veniam ea autem odit nihil impedit necessitatibus velit iste. Ipsa error recusandae ea laudantium nisi, rerum labore cumque. Aut, incidunt pariatur?</p>
+                </section>
+            </aside>
+
+            <aside class="container shadow-md">
+                <section class="upbox">
+                    <img src="img/website-hosting-concept-with-cloud.jpg" alt="">
+                </section>
+                <section class="downbox">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut perferendis distinctio sequi a odit. Mollitia sapiente velit quibusdam eius cupiditate ea perspiciatis doloremque temporibus, tempore delectus facilis enim facere?</p>
+                </section>
+            </aside>
+
+        </section>
+
+        <footer class="h-7 bg-orange-500"></footer>
+
+    </main>
+
+    <!-- Section pour le Footer -->
+
+    <footer>
+        <section class="upboxfooter">
+
+            <aside class="box-container">
+
+            </aside>
+
+            <aside class="box-container">
+                <span></span>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </aside>
+
+            <aside class="box-container">
+                <span></span>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </aside>
+
+            <aside class="box-container">
+                <span></span>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </aside>
+
+        </section>
+
+        <section class="downboxfooter">
+
+            <aside class="box-container">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </aside>
+
+            <aside class="box-container">
+                <form action="">
+                    <label for="Newsletter"></label>
+                    <input type="email" name="email">
+                </form>
+            </aside>
+
+        </section>
+    </footer>
+
+    <!-- Script JS -->
+
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <script src="js/index.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/styleManager.js"></script>
+</body>
+</html>
